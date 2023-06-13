@@ -1,0 +1,368 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+.images {
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 750px;
+}
+
+main {
+  display: block;
+}
+
+.navtable {
+  /* border: 2px solid black; */
+  width: 100%;
+  border-bottom: 1px solid grey;
+  /* padding-bottom: 10px; */
+    padding-top: 10px;
+}
+
+.img1 {
+  width: 382px;
+  height: 198px;
+  display: inline-block;
+}
+
+.navlink {
+  text-decoration: none;
+  font-size: large;
+  color: rgb(76, 74, 74);
+}
+
+.navlink:hover {
+  border-bottom: 2px solid blue;
+}
+
+.reserve {
+  float: right;
+}
+
+.resbtn {
+  background-color: rgb(73, 73, 246);
+  border-radius: 7px;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.resbtn:hover {
+  background-color: rgb(111, 111, 214);
+}
+
+.rooms {
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  height: 500px;
+  box-shadow: 0px 0px 20px 0px;
+  margin-top: 30px;
+}
+.containers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.heading {
+  background-color: blue;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+}
+
+.roomimg {
+  height: 200px;
+  width: 400px;
+}
+
+.resbtn {
+  background-color: rgb(73, 73, 246);
+  border-radius: 7px;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  float: right;
+  text-align: center;
+}
+
+.resbtn:hover {
+  background-color: rgb(111, 111, 214);
+}
+
+.cost {
+  font-size: large;
+}
+
+.icons {
+  height: 15px;
+}
+
+.room-card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px;
+  margin-top: 30px;
+  /* padding: 20px; */
+  max-width: 400px;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.room-container {
+  display: inline;
+  overflow-x: auto;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.room-card:hover {
+  transform: translateY(-5px);
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.room-card:not(:hover) {
+  transform: none;
+  
+}
+
+.card1:hover {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(-5px);
+}
+
+.card2:hover {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(-5px);
+}
+.card3:hover {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(-5px);
+}
+.card4:hover {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(-5px);
+}
+.card5:hover {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(-5px);
+}
+.card6:hover {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(-5px);
+}
+
+
+/* Add transition to other cards */
+.room-container:hover .room-card:not(:hover) {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.heading {
+  background-color: rgb(73, 73, 246);
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+}
+
+.roomimg {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.room-title {
+  
+      font-size: 20px;
+    padding-left: 12px;
+    font-weight: bold;
+}
+
+
+.room-info {
+  display: none;
+  position: relative;
+  margin-bottom: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  line-height: 1.2;
+}
+
+.room-card:hover .rating,
+.room-card:hover .room-info {
+  display: block;
+  opacity: 1;
+}
+
+.price-container {
+ 
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 17px;
+  margin-top: 20px;
+}
+
+.cost {
+  font-size: 20px;
+  padding-left: 18px;
+}
+
+.resbtn {
+  background-color: rgb(73, 73, 246);
+  border-radius: 7px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.resbtn:hover {
+  background-color: rgb(111, 111, 214);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* display: flex;
+  overflow-x: auto;
+  white-space: inherit; */
+}
+p{
+  padding-left: 18px;
+}
+
+
+.resbtn{
+      /* padding-left: 68px; */
+      float: right;
+      position: relative;
+      bottom: 9px;
+      right: 12px;
+}
+.icons{
+  size: 15px;
+}
+
+span{
+  padding-left: 10px;
+}
+
+
+
+
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.images{
+    /* border: 2px solid black; */
+       /* border: 2px solid black; */
+       height: 400px;
+       width: 750px;
+}
+
+main{
+    display:block;
+}
+
+.navtable{
+    /* border: 2px solid black; */
+    width: 100%;
+    border-bottom: 1px solid grey;
+    /* padding-bottom: 10px; */
+    padding-top: 3px;
+}
+
+.img1{
+    width: 382px;
+    height: 198px;
+    display: inline-block;
+}
+
+a{
+    padding-bottom: 13px;
+}
+
+.navlink{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(76, 74, 74);
+}
+.ac1{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+.navlink:hover{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+.reserve{
+    float: right;
+    
+}
+/* 
+.navlink{
+  padding-left: 118px;
+} */
+
+
+.ac1{
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+.resbtn{
+    background-color: rgb(73, 73, 246);
+    border-radius: 7px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.resbtn:hover{
+    background-color: rgb(111, 111, 214);
+}
+
+.details{
+    padding-left: 21px;
+    padding-top: 17px;
+}
+
+i{
+    color: rgb(93, 90, 90);
+    padding-right: 3px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
